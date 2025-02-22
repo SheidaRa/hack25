@@ -5,7 +5,6 @@ import Dashboard from "../Dashboard/Dashboard";
 import CategoryPage from "../CategoryPage/CategoryPage";
 import Categories from "../Categories/Categories";
 
-
 const Home = () => {
   return (
     <Routes>
@@ -16,4 +15,3 @@ const Home = () => {
 };
 
 export default Home;
-

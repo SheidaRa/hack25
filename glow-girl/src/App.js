@@ -1,30 +1,31 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import FakeCover from './components/FakeCover/FakeCover';
-import CategoryPage from './components/CategoryPage/CategoryPage';
-import Dashboard from './components/Dashboard/Dashboard';
-import Settings from './components/Settings/Settings';
-import Hheader from './components/Hheader';
-import Ffooter from './components/Ffooter'
+import FakeCover from "./components/FakeCover/FakeCover";
+import CategoryPage from "./components/CategoryPage/CategoryPage";
+import Dashboard from "./components/Dashboard/Dashboard";
+import Settings from "./components/Settings/Settings";
+import Hheader from "./components/Hheader";
+import Ffooter from "./components/Ffooter";
 import Home from "./components/Home/Home";
-
-import About from './components/About'
+import "./App.css";
+import About from "./components/About";
 import Product from "./components/Product";
-import Contact from './components/Contact'
-import Cart from './components/Cart';
-import Checkout from './components/Checkout'
+import Contact from "./components/Contact";
+import Cart from "./components/Cart";
+import Checkout from "./components/Checkout";
+import Login from "./components/buttons/Login";
 
 function App() {
   return (
     <div className="App">
-    <Router>
-      <Routes>
+      <Router>
+        <Routes>
+          <Route path="/*" element={<Home />} />
+          <Route path="/login" element={<Login />} />
 
-      <Route path="/*" element={<Home />} />       
-     
-        {/* <Route path="/Emergency" element={<EmergencyExit />} />
+          {/* <Route path="/Emergency" element={<EmergencyExit />} />
         <Route path="/Map" element={<SafeMap />} /> */}
 
-      {/* <Hheader/>
+          {/* <Hheader/>
             
               <Route exact path="/products" component={Product} />
               <Route exact path="/products/:id" component={ProductDetail} />
@@ -34,18 +35,10 @@ function App() {
               <Route exact path="/contact" component={Contact} />
             
             <Ffooter/> */}
-
-      </Routes>
-    </Router>
-
-
+        </Routes>
+      </Router>
     </div>
   );
 }
 
-
 export default App;
-
-
-
-
