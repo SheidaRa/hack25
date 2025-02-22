@@ -1,4 +1,3 @@
-// SafeMap.js
 import React, { useEffect } from "react";
 
 const SafeMap = () => {
