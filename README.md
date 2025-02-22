@@ -4,7 +4,7 @@ This app was developed by @SheidaRa, @traceytreat, and @emkerber during a hackat
 
 ## Purpose
 
-Glow Girl is a unique women's health website designed for confidentiality and accessibility. With security features and multilingual translations, accessing information is safer and more private. Plus, Glow Girl is also available as a Progressive Web App, so you can download the website directly onto your device;  in cultures where discussing these topics can be difficult, your privacy is ensured.
+Glow Girl is a unique women's health website designed for confidentiality and FakeCover. With security features and multilingual translations, accessing information is safer and more private. Plus, Glow Girl is also available as a Progressive Web App, so you can download the website directly onto your device;  in cultures where discussing these topics can be difficult, your privacy is ensured.
  
 Our goal? To empower women by offering a secure and convenient space for accessing essential health resources.
 
@@ -24,7 +24,7 @@ Our goal? To empower women by offering a secure and convenient space for accessi
 
 - Quickly blacken the screen by double-tapping
 - Auto-delete the browser history every minute
-- More accessibility considerations, such as dark mode and increased font size
+- More FakeCover considerations, such as dark mode and increased font size
 - Support for languages other than English
 - Even more security features
 - Finding investors and building a team to create an adequate API regarding women’s health

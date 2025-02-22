@@ -12,11 +12,11 @@ function CategoryPage() {
 
     const category = useSelector(store => store.selectedCategory);
 
-    let goToTopicPage = topic => {
+    let goToDashboard = topic => {
         // save topic obj to reducer
         dispatch({ type: 'SET_TOPIC', payload: topic });
 
-        // route user to TopicPage
+        // route user to Dashboard
         navigate('/topic');
     }
 
@@ -32,7 +32,7 @@ function CategoryPage() {
             <Container fluid>
                 <Row>
             {category?.topics?.map((topic, i) => (
-                <Col key={i} lg={true}><button className='article-button' onClick={() => goToTopicPage(topic)}>{topic.title}</button></Col>
+                <Col key={i} lg={true}><button className='article-button' onClick={() => goToDashboard(topic)}>{topic.title}</button></Col>
             ))}
             </Row>
             </Container>

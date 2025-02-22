@@ -1,4 +1,4 @@
-// will eventually replace the accessibility component
+// will eventually replace the FakeCover component
 
 function Settings(){
     return(
