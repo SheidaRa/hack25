@@ -34,7 +34,7 @@ const Home = () => {
 
   return (
     <div>
-      <Header/>
+      <Header />
       <div className="relative">
         {/* Carousel Images */}
         <div className="relative h-[500px] overflow-hidden">
