@@ -9,7 +9,7 @@ const ResourcesPage = () => {
 
       {/* Articles Section */}
       <div className="bg-[#C3BEF1] p-8 rounded-xl mb-10 shadow-lg">
-        <h3 className="text-2xl mb-5 text-white">Articles</h3>
+        <h3 className="text-2xl text-center mb-5 text-white">Articles</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
           <div className="bg-white p-4 rounded-lg shadow-md text-center">
             <img
@@ -59,7 +59,7 @@ const ResourcesPage = () => {
             All
           </button>
           <button className="bg-pink-500 text-white py-2 px-4 rounded-full transition-colors duration-300 hover:bg-gray-500">
-            Shelter
+            Medical
           </button>
           <button className="bg-pink-500 text-white py-2 px-4 rounded-full transition-colors duration-300 hover:bg-gray-500">
             Crisis Support

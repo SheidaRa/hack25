@@ -1,30 +1,31 @@
+import React from "react";
 import Data from "../../data.json";
-import { Container, Row, Col } from "react-bootstrap";
-import "./Categories.css";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import CategoryListItem from "../CategoryListItem/CategoryListItem";
 
 function Categories() {
   return (
-    <div id="categories">
-      <Header />
-      <Container>
-        <h1>Categories</h1>
-        {Data.categories.map((category, i) => (
-          <div key={i}>
-            <h2>{category.title}</h2>
-            <p>{category.summary}</p>
-            <Row>
-              {category.topics.map((topic, j) => (
-                <Col key={j} md={6} lg={4}>
-                  <CategoryListItem topic={topic} />
-                </Col>
-              ))}
-            </Row>
-          </div>
-        ))}
-      </Container>
+    <div className="flex justify-center items-center min-h-screen bg-[#9b6dc1]">
+      <div className="bg-[#cc99f5] rounded-[20px] shadow-lg w-[90%] max-w-[1200px] p-5 box-border">
+        <Header />
+        <div className="container mx-auto">
+          <h1 className="text-center text-[#4A154B] text-4xl mb-5">
+            Categories
+          </h1>
+          {Data.categories.map((category, i) => (
+            <div key={i} className="text-center mt-5">
+              <h2 className="text-2xl font-semibold">{category.title}</h2>
+              <p className="mb-4">{category.summary}</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {category.topics.map((topic, j) => (
+                  <CategoryListItem key={j} topic={topic} />
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
