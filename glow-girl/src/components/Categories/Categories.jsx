@@ -25,7 +25,6 @@ function Categories() {
           </div>
         ))}
       </Container>
-      <Footer />
     </div>
   );
 }

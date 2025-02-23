@@ -1,45 +1,45 @@
 const DATA = [
     {
         id : 0,
-        title : "IPhone 11",
-        price : 750,
-        desc : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-        img : "/assets/images/products/iphone11.png"
+        title : "Woman's Casual T-Shirt",
+        price : 25,
+        desc : "This comfortable, high-quality t-shirt is perfect for everyday wear. Made from soft cotton, it offers a relaxed fit and a stylish look.",
+        img : "/assets/images/products/clothes1.jpg"
     },
     {
         id : 1,
-        title : "IPhone 11 Pro Max",
-        price : 800,
-        desc : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-        img : "/assets/images/products/iphone11promax.png"
+        title : "Women's Summer Dress",
+        price : 45,
+        desc : "A breezy and vibrant summer dress that combines style with comfort. Ideal for sunny days and casual outings.",
+        img : "/assets/images/products/clothes2.webp"
     },
     {
         id : 2,
-        title : "IPhone 12 Mini",
-        price : 950,
-        desc : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-        img : "/assets/images/products/iphone12mini.png"
+        title : "Unisex Hoodie",
+        price : 60,
+        desc : "A versatile hoodie suitable for both men and women. Crafted from premium materials, it ensures warmth and style during cooler weather.",
+        img : "/assets/images/products/clothes3.webp"
     },
     {
         id : 3,
-        title : "IPhone 12",
-        price : 1050,
-        desc : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-        img : "/assets/images/products/iphone12.png"
+        title : "Men's Denim Jacket",
+        price : 80,
+        desc : "A classic denim jacket that never goes out of style. With its rugged design and durable fabric, it’s perfect for a casual, everyday look.",
+        img : "/assets/images/products/clothes4.webp"
     },
     {
         id : 4,
-        title : "IPhone 12 Pro",
-        price : 1150,
-        desc : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-        img : "/assets/images/products/iphone12pro.png"
+        title : "Women's Blouse",
+        price : 35,
+        desc : "An elegant blouse that blends sophistication with comfort. Designed with delicate details, it’s great for both professional and casual settings.",
+        img : "/assets/images/products/clothes 5.jpg"
     },
     {
         id : 5,
-        title : "IPhone 12 Pro Max",
-        price : 1250,
-        desc : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-        img : "/assets/images/products/iphone12promax.png"
+        title : "Unisex Running Shorts",
+        price : 30,
+        desc : "Lightweight and breathable, these running shorts are designed for active lifestyles. They provide comfort and flexibility during workouts.",
+        img : "/assets/images/products/clothes6.webp"
     }
 ]
 

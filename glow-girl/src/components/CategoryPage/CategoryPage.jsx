@@ -37,7 +37,7 @@ function CategoryPage() {
             </Row>
             </Container>
             </div>
-        <Footer />
+        
         </>
     )
 }
