@@ -13,6 +13,7 @@ import Contact from "./components/Contact";
 import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 import Login from "./components/buttons/Login";
+import Categories from "./components/Categories/Categories";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Routes>
           <Route path="/*" element={<Home />} />
           <Route path="/login" element={<Login />} />
-
+          <Route path="/categorie" element={<Categories />} />
           {/* <Route path="/Emergency" element={<EmergencyExit />} />
         <Route path="/Map" element={<SafeMap />} /> */}
 
