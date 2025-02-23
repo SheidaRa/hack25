@@ -1,20 +1,24 @@
 {
-    "categories": [
-      {
-        "topics": [
-          {
-            "title": "Resources",
-            "description": "A guide to recognizing warning signs of abusive behavior in relationships."
-          },
-          {
-            "title": "Safe Chat",
-            "description": "Access to counseling, therapy, and hotlines for emotional support and trauma recovery."
-          },
-          {
-            "title": "Security Features",
-            "description": "Strategies for ensuring personal safety in potentially dangerous situations."
-          }
-        ]
-      }
-    ]
-  }
+  "categories": [
+    {
+      "topics": [
+        {
+          "title": "Resources",
+          "description": "A guide to recognizing warning signs of abusive behavior in relationships.",
+          "path": "Resources"
+
+        },
+        {
+          "title": "Safe Chat",
+          "description": "Access to counseling, therapy, and hotlines for emotional support and trauma recovery.",
+          "path": "/safe-chat"
+        },
+        {
+          "title": "Security Features",
+          "description": "Strategies for ensuring personal safety in potentially dangerous situations.",
+          "path": "/security-features"
+        }
+      ]
+    }
+  ]
+}
