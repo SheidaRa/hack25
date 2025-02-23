@@ -9,9 +9,9 @@
 
         },
         {
-          "title": "Safe Chat",
+          "title": "Nearby Shelters",
           "description": "Access to counseling, therapy, and hotlines for emotional support and trauma recovery.",
-          "path": "/safe-chat"
+          "path": "map"
         },
         {
           "title": "Security Features",
