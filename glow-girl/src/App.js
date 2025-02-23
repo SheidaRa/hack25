@@ -14,6 +14,7 @@ import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 import Login from "./components/buttons/Login";
 import Categories from "./components/Categories/Categories";
+import Topic from "./components/Topic/Topic";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
           <Route path="/*" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/categorie" element={<Categories />} />
-          <Route path="/category" element={<CategoryPage />} />
+          <Route path="/summary" element={<CategoryPage />} />
+          <Route path="/topic" element={<Topic />} />
           {/* <Route path="/Emergency" element={<EmergencyExit />} />
         <Route path="/Map" element={<SafeMap />} /> */}
 
