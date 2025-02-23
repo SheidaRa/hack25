@@ -24,7 +24,6 @@ function App() {
           <Route path="/*" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/categorie" element={<Categories />} />
-          <Route path="/summary" element={<CategoryPage />} />
           <Route path="/topic" element={<Topic />} />
           {/* <Route path="/Emergency" element={<EmergencyExit />} />
         <Route path="/Map" element={<SafeMap />} /> */}
