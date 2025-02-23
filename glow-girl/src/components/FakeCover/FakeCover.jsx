@@ -1,95 +1,82 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Product from "../Product";
 import Header from "../Hheader";
 
+const images = [
+  "/assets/images/home/img1.jpg",
+  "/assets/images/home/img2.jpg",
+  "/assets/images/home/img3.jpg",
+  "/assets/images/home/img4.jpg",
+];
+
 const Home = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  // Auto-rotate slides every 5 seconds
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % images.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const goToSlide = (index) => {
+    setCurrentSlide(index);
+  };
+
+  const previousSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + images.length) % images.length);
+  };
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % images.length);
+  };
+
   return (
     <div>
-      <Header />
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
+      <Header/>
+      <div className="relative">
+        {/* Carousel Images */}
+        <div className="relative h-[500px] overflow-hidden">
+          {images.map((img, index) => (
+            <img
+              key={index}
+              src={img}
+              alt={`Slide ${index + 1}`}
+              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out ${
+                index === currentSlide ? "opacity-100" : "opacity-0"
+              }`}
+            />
+          ))}
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="/assets/images/home/img1.jpg"
-              class="d-block w-100"
-              alt="IPhone"
-              height="500px"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/assets/images/home/img2.jpg"
-              class="d-block w-100"
-              alt="IPhone"
-              height="500px"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/assets/images/home/img3.jpg"
-              class="d-block w-100"
-              alt="IPhone"
-              height="500px"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/assets/images/home/img4.jpg"
-              class="d-block w-100"
-              alt="IPhone"
-              height="500px"
-            />
-          </div>
+
+        {/* Slide Indicators */}
+        <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 space-x-2">
+          {images.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToSlide(index)}
+              className={`w-3 h-3 rounded-full ${
+                index === currentSlide ? "bg-white" : "bg-gray-400"
+              }`}
+            ></button>
+          ))}
         </div>
+
+        {/* Previous Button */}
         <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
+          onClick={previousSlide}
+          className="absolute top-1/2 left-4 -translate-y-1/2 bg-black bg-opacity-50 p-2 rounded-full text-white hover:bg-opacity-75"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          &#10094;
         </button>
+
+        {/* Next Button */}
         <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
+          onClick={nextSlide}
+          className="absolute top-1/2 right-4 -translate-y-1/2 bg-black bg-opacity-50 p-2 rounded-full text-white hover:bg-opacity-75"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          &#10095;
         </button>
       </div>
       <Product />
