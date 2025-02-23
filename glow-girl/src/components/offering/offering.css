@@ -1,0 +1,39 @@
+.offerings {
+    background-color: #444; /* Light gray background */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .offerings h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #eee; /* Light text color */
+  }
+  
+  .offerings-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .offering {
+    background-color: #555; /* Slightly darker gray for offering boxes */
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    margin: 15px;
+    color: #eee;
+  }
+  
+  .offering img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .offering h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }

@@ -15,6 +15,7 @@ import Checkout from "./components/Checkout";
 import Login from "./components/buttons/Login";
 import Categories from "./components/Categories/Categories";
 import Topic from "./components/Topic/Topic";
+import ResourcesPage from "./components/resourcespage/resourcespage.css";
 
 function App() {
   return (

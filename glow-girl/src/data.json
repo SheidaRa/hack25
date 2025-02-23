@@ -1,124 +1,20 @@
-
 {
     "categories": [
-        {
+      {
+        "topics": [
+          {
             "title": "Resources",
-            "summary": "If you or someone you know is experiencing domestic violence, there are resources available to help. Below are tools and information to support you in finding safety and healing.",
-            "topics": [
-                {
-                    "title": "Red Flag Checklist",
-                    "description": "A guide to recognizing warning signs of abusive behavior in relationships."
-                },
-                {
-                    "title": "Mental Health Resources",
-                    "description": "Access to counseling, therapy, and hotlines for emotional support and trauma recovery."
-                },
-                {
-                    "title": "Understanding Domestic Violence",
-                    "description": "Learn about the different forms of abuse, including physical, emotional, financial, and digital abuse."
-                },
-                {
-                    "title": "Financial Assistance Programs",
-                    "description": "Organizations that provide financial support for housing, legal fees, and other needs for survivors."
-                },
-                {
-                    "title": "Legal Aid Services",
-                    "description": "Free or low-cost legal help for restraining orders, custody battles, and other legal protections."
-                }
-            ]
-        },
-        {
-            "title": "Know Your Rights",
-            "summary": "Understanding your legal rights is crucial for protecting yourself and seeking justice. Below are resources to help you navigate your rights as a survivor of domestic violence.",
-            "topics": [
-                {
-                    "title": "Your Rights to Protection",
-                    "description": "Learn about restraining orders, emergency protective orders, and how to file them."
-                },
-                {
-                    "title": "Your Rights in the Workplace",
-                    "description": "Understand your rights to safety accommodations, leave, and protection from discrimination."
-                },
-                {
-                    "title": "Your Rights as a Tenant",
-                    "description": "Information on breaking a lease, eviction protections, and housing rights for survivors."
-                },
-                {
-                    "title": "Your Rights to Confidentiality",
-                    "description": "Know your rights to privacy when seeking medical, legal, or counseling services."
-                }
-            ]
-        },
-        {
-            "title": "Emergency Services",
-            "summary": "If you are in immediate danger, these resources can help you find safety and support right away.",
-            "topics": [
-                {
-                    "title": "Contact Law Enforcement",
-                    "description": "How to safely contact police and what to expect when reporting domestic violence."
-                },
-                {
-                    "title": "Find a Shelter",
-                    "description": "Locate nearby domestic violence shelters and safe houses for emergency housing."
-                },
-                {
-                    "title": "Crisis Hotlines",
-                    "description": "24/7 hotlines for immediate support, including the National Domestic Violence Hotline."
-                },
-                {
-                    "title": "Escape Plan Guide",
-                    "description": "Step-by-step instructions on creating a safe plan to leave an abusive situation."
-                },
-                {
-                    "title": "Emergency Contacts",
-                    "description": "Save trusted contacts for quick access to help in a crisis."
-                }
-            ]
-        },
-        {
-            "title": "Health and Wellness",
-            "summary": "Healing from domestic violence is a journey. Below are resources to support your physical, emotional, and mental well-being.",
-            "topics": [
-                {
-                    "title": "Trauma Recovery",
-                    "description": "Resources for healing from the emotional and psychological effects of abuse."
-                },
-                {
-                    "title": "Medical Support",
-                    "description": "Find healthcare providers who specialize in treating survivors of domestic violence."
-                },
-                {
-                    "title": "Self-Care Strategies",
-                    "description": "Practical tips for managing stress, building resilience, and practicing self-care."
-                },
-                {
-                    "title": "Support for Children",
-                    "description": "Resources to help children who have witnessed or experienced domestic violence."
-                }
-            ]
-        },
-        {
-            "title": "Community and Support",
-            "summary": "You are not alone. Connect with others who understand your experiences and find strength in community.",
-            "topics": [
-                {
-                    "title": "Support Groups",
-                    "description": "Join local or online groups for survivors of domestic violence to share and heal together."
-                },
-                {
-                    "title": "Advocacy Organizations",
-                    "description": "Find organizations that fight for the rights of survivors and provide resources."
-                },
-                {
-                    "title": "Educational Workshops",
-                    "description": "Attend workshops on topics like safety planning, legal rights, and rebuilding your life."
-                },
-                {
-                    "title": "Volunteer Opportunities",
-                    "description": "Ways to give back by supporting other survivors or raising awareness about domestic violence."
-                }
-            ]
-        }
+            "description": "A guide to recognizing warning signs of abusive behavior in relationships."
+          },
+          {
+            "title": "Safe Chat",
+            "description": "Access to counseling, therapy, and hotlines for emotional support and trauma recovery."
+          },
+          {
+            "title": "Security Features",
+            "description": "Strategies for ensuring personal safety in potentially dangerous situations."
+          }
+        ]
+      }
     ]
- }
- 
+  }
